@@ -5,7 +5,7 @@
         global.ElementClassifier = factory(); // For browsers
     }
 })(this, function () {
-    const AvatarGenerator = {
+    const ElementClassifier = {
         classify(elemento): function () {
             elemento = elemento.tagName
             if (elemento == 'H1' || elemento == 'H2' || elemento == 'H3' || elemento == 'H4' || elemento == 'H5' || elemento == 'H6' || elemento == 'P'){
