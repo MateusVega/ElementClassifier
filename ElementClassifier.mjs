@@ -6,7 +6,7 @@
     }
 })(this, function () {
     const ElementClassifier = {
-        classify(elemento): function () {
+        classify: function (elemento) {
             elemento = elemento.tagName
             if (elemento == 'H1' || elemento == 'H2' || elemento == 'H3' || elemento == 'H4' || elemento == 'H5' || elemento == 'H6' || elemento == 'P'){
                 return 'Text'
